@@ -20,7 +20,7 @@ const router = createBrowserRouter([
         path: "/products",
         element: <Products />,
         loader: () =>
-          fetch("https://jsonplaceholder.typicode.com/posts?_limit=200"),
+          fetch("https://jsonplaceholder.typicode.com/posts?_limit=20"),
       },
       {
         path: "/singleproduct/:id",
